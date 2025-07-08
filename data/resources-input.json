@@ -1,0 +1,9 @@
+{
+  "resources": [
+    {
+      "uri": "file:///logs/app.log",
+      "name": "Application Logs",
+      "mimeType": "text/plain"
+    }
+  ]
+}

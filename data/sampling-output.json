@@ -1,0 +1,17 @@
+{
+  "method": "sampling/createMessage",
+  "params": {
+    "messages": [
+      {
+        "role": "user",
+        "content": {
+          "type": "text",
+          "text": "What files are in the current directory?"
+        }
+      }
+    ],
+    "systemPrompt": "You are a helpful file system assistant.",
+    "includeContext": "thisServer",
+    "maxTokens": 100
+  }
+}

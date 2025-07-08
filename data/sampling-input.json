@@ -1,0 +1,9 @@
+{
+  "model": "claude-4",
+  "stopReason": "endTurn",
+  "role": "assistant",
+  "content": {
+    "type": "text",
+    "text": "The current directory contains:\n- README.md\n- main.py\n- config.json"
+  }
+}

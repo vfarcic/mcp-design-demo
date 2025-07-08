@@ -1,0 +1,11 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "type": "text",
+        "text": "Please fetch all open GitHub issues from this project repository that have the label \"PRD\".\n\nUse the `gh` command to:\n1. Get the current repository information\n2. List all open issues with the \"PRD\" label\n3. Display the results in a readable format showing:\n - Issue number\n   - Title\n   - Created date\n   - Author\n\nCommands to run:\n```bash\n!gh repo view --json owner,name\n!gh issue list --label \"PRD\" --state open --json number,title,createdAt,author\n```\n\nFormat the output in a clear, readable way for easy review of all open PRD-related issues."
+      }
+    }
+  ]
+}

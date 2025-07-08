@@ -1,0 +1,8 @@
+{
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"intent\": \"deploy my Node.js API with Redis cache\",\n  \"solutions\": [\n    {\n      \"solutionId\": \"sol_2025-07-07T204632_1a2b3c4d5e6f\",\n      \"type\": \"combination\",\n      \"score\": 85,\n      \"description\": \"Complete Node.js application stack with Redis caching and persistent storage\",\n      \"primaryResources\": [\"Deployment\", \"Service\", \"ConfigMap\"],\n \"reasons\": [\n        \"Deployment provides scalable application hosting\",\n        \"Service enables network access and load balancing\",\n        \"ConfigMap manages application configuration\"\n      ],\n      \"analysis\": \"This solution provides a robust foundation for a Node.js API with caching capabilities.\"\n    }\n  ],\n  \"nextAction\": \"Call chooseSolution with your preferred solutionId\",\n  \"guidance\": \"🛑 NEVER choose automatically - Present ALL solutions to user and ask them to choose by calling chooseSolution(solutionId)\",\n  \"timestamp\": \"2025-07-07T20:46:32.123Z\"\n}"
+      }
+    ]
+  }

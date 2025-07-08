@@ -1,0 +1,12 @@
+{
+  "roots": [
+    {
+      "uri": "file:///home/user/projects/myapp",
+      "name": "Main Project"
+    },
+    {
+      "uri": "https://api.example.com/v1",
+      "name": "API Endpoint"
+    }
+  ]
+}

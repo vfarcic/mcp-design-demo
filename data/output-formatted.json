@@ -1,0 +1,28 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": {
+        "intent": "deploy my Node.js API with Redis cache",
+        "solutions": [
+          {
+            "solutionId": "sol_2025-07-07T204632_1a2b3c4d5e6f",
+            "type": "combination",
+            "score": 85,
+            "description": "Complete Node.js application stack with Redis caching and persistent storage",
+            "primaryResources": ["Deployment", "Service", "ConfigMap"],
+            "reasons": [
+              "Deployment provides scalable application hosting",
+              "Service enables network access and load balancing",
+              "ConfigMap manages application configuration"
+            ],
+            "analysis": "This solution provides a robust foundation for a Node.js API with caching capabilities."
+          }
+        ],
+        "nextAction": "Call chooseSolution with your preferred solutionId",
+        "guidance": "🛑 NEVER choose automatically - Present ALL solutions to user and ask them to choose by calling chooseSolution(solutionId)",
+        "timestamp": "2025-07-07T20:46:32.123Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "recommend",
+    "description": "Deploy, create, run, or setup applications on Kubernetes with AI-powered recommendations. Ask the user to describe their application first, then use their response here.",
+    "inputSchema": { "intent": "string (1-1000 chars)" }
+  },
+  {
+    "name": "chooseSolution",
+    "description": "Select a solution by ID and return its questions for configuration",
+    "inputSchema": { "solutionId": "string (regex pattern)" }
+  },
+  {
+    "name": "answerQuestion",
+    "description": "Process user answers and return remaining questions or completion status",
+    "inputSchema": { "solutionId": "string", "stage": "enum", "answers": "object" }
+  },
+  {
+    "name": "generateManifests",
+    "description": "Generate final Kubernetes manifests from fully configured solution",
+    "inputSchema": { "solutionId": "string" }
+  },
+  {
+    "name": "deployManifests",
+    "description": "Deploy Kubernetes manifests from generated solution",
+    "inputSchema": { "solutionId": "string", "timeout": "number" }
+  }
+]
