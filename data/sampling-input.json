@@ -4,6 +4,6 @@
   "role": "assistant",
   "content": {
     "type": "text",
-    "text": "The current directory contains:\n- README.md\n- main.py\n- config.json"
+    "text": "[\n  {\n    \"kind\": \"Deployment\",\n    \"apiVersion\": \"apps/v1\",\n    \"group\": \"apps\"\n  },\n  {\n    \"kind\": \"Service\",\n    \"apiVersion\": \"v1\",\n    \"group\": \"\"\n  },\n  {\n    \"kind\": \"StatefulSet\",\n    \"apiVersion\": \"apps/v1\",\n    \"group\": \"apps\"\n  },\n  {\n    \"kind\": \"PersistentVolumeClaim\",\n    \"apiVersion\": \"v1\",\n    \"group\": \"\"\n  },\n  {\n    \"kind\": \"Secret\",\n    \"apiVersion\": \"v1\",\n    \"group\": \"\"\n  },\n  {\n    \"kind\": \"ConfigMap\",\n    \"apiVersion\": \"v1\",\n    \"group\": \"\"\n  }\n]"
   }
 }
